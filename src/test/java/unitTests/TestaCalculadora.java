@@ -20,7 +20,7 @@ public class TestaCalculadora {
 
         // 3 validar - The
         assertEquals(resultadoEsperado,resultadoAtual);
-        //System.out.println("o Resultado Esperado e: " + resultadoEsperado + " O resultado Atual foi: " + resultadoAtual);
+        System.out.println("o Resultado Esperado e: " + resultadoEsperado + " O resultado Atual foi: " + resultadoAtual);
 
 
     }

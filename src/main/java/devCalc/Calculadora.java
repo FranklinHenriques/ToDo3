@@ -51,6 +51,15 @@
 //ou faz no retun ou faz nessa linha  int soma = num1 + num2;
     return num1 + num2;
 }
+    public static int subtrairDoisNumeros(int num1, int num2) {
+        return 0;
+    }
+        public static int MultiplicarDoisNumeros (int num1, int num2) {
+            return 0;
+        }
+        public static int DividirDoisNumeros  (int num1, int num2){
+        return 0;
+    }
 //
 
 
