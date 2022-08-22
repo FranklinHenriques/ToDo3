@@ -46,6 +46,7 @@ public void testarMain(){
 
         // 3 - Validar - Then / Então
         assertEquals(resultadoEsperado,resultadoAtual);
+
     }
 
 }
