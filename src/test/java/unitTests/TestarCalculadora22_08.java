@@ -38,17 +38,15 @@ public void testarMain(){
     @Test
     public void testarMainMultiplicacao(){
         // 1 Prepara - Configuara - Given /Dado
-        int num1 = 100;
+        int num1 = 100000;
         int num2 = 4;
-        int resultadoEsperado = 25;
+        int resultadoEsperado = 25000;
         // 2 - Executar - When / Quando
         int resultadoAtual = Calculadora.dividirDoisNumeros(num1,num2);
 
         // 3 - Validar - Then / Então
         System.out.println("o Resultado Esperado e " + resultadoEsperado + "O Resultado Atual foi " + resultadoAtual);
         assertEquals(resultadoEsperado,resultadoAtual);
-
-
     }
 
 }
